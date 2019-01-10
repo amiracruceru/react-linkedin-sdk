@@ -1,13 +1,20 @@
 .linkedin-sdk {
-  border: none;
-  background: #0174b3;
-  padding: 10px;
-  color: white;
-  font-size: 15px;
-  border-radius: 3px;
+  width: 100%;
+  line-height: normal;
+  padding: 0;
+  background-color: rgb(13, 98, 166);
+  font-weight: 600;
+}
+
+.linkedin-sdk:hover {
+  background-color: rgb(12, 84, 143);
+}
+
+.linkedin-sdk:active {
+  background-color: rgb(12, 77, 128);
 }
 
 .linkedin-sdk:disabled {
-  background: #59839a;
+  background-color: rgb(13, 98, 166);
   cursor: not-allowed;
 }
